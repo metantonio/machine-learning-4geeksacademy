@@ -1,73 +1,169 @@
 # Machine Learning Bootcamp
 
-## Python (2 days)
+1. Use the `export` folder for publishing pursposes, all lessons are compiled into that folder. y AÑADO UN TEXTO PARA HACER UN PULL REQUEST
+2. Compile original lessons by running `bash export.sh`
+
+> 🔥 Remember to run the `$ bash export` command.
+
+## Python (3 days)
 
 1. Python for Datascience
 
 ## Probability and Statistic Skills (6 days)
 
 1. Calculus
+
 2. Linear Algebra 
+
+📝 Calculus and Linear algebra problems
+
 3. Probability
+
+📝 Probability problems 
+
 4. Descriptive Statistics
+
+📝 Descriptive statistics problems
+
 5. Random Variables
-6. Hypothesis Testing
+
+📝 Probability Distribution problems
+
+6.1. Hypothesis Testing
+
+📝 Hypothesis testing problems
 
 
 ## Computer Science (1 day)
 
 1. Optimizing Algorithms
 
+📝 Algorithm optimization problems
+
+
 ## Collect and store data (4 days)
 
-1. Data Science project structure.  
-2.1. Static Files (csv, json, yml).  
-2.2. Web Scraping tools and techniques.  
-3. How to connect to a SQL database using Python.   
+1.1. Intro to SQL (Structured Query language) - external
+
+1.2 Create and connect to SQL databases with Python
+
+📝 Connecting to a Sql database from Python
+
+2.1. Loading Static Files (csv, json, yml)
+
+2.2.  Web Scraping tools and techniques
+
+📝 Web scraping data from a website 
+
+3. Project structure
   
-Project part I: Involves creating your own dataset from web scraping and storing it on SQL DB.   
+📝 Interacting with the Twitter API
+  
 
 ## Data Management (3 days)
 
-1. Exploratory data analysis
-2. Data Cleaning
-3. Feature Engineering: creating new features from existing features.
-4. How to deal with outliers
-5. How to deal with missing data
-6. Label encoding and Normalization Techniques
+1. Exploratory data analysis (EDA) 
 
-Project Part II: Data cleaning
+1.2. Titanic survival notebook to understand EDA (2 hours)
 
-## Modeling (6 days)
+2. Feature Engineering 
 
-1. Supervised and Unsupervised Learning
-2. Cross Validation (Overfitting vs underfitting)
-3. Introduction to the scikit-learn library.
-4. Metrics: Measuring your results
-5. Model parameters
+2.1. How to deal with outliers
 
-## Machine Learning Algorithms (6 days)
+2.2. How to deal with missing data
 
-1. Regression Algorithms
-2. Classification Algorithms
-3. Clustering
-4. Hypertuning your machine learning algorithm
-5. Time Series Forecasting and Recommender Systems
-6. Introduction to Deep Learning.
+2.3. Feature encoding for categorical variables
 
-## Storytelling, Communicating your results (2 days)
+2.4. Feature Scaling
 
-1. Business intelligence tools
-2. Using the ideal graph to show insights
-3. Communicating statistics in a simple way
+3. Feature selection techniques
 
-## Data Science as Software (1 day)
+📝 Project: New York City Airbnb exploratory data analysis (2 hours) 
 
-1. How to create a machine learning web app with Heroku.
+## Machine Learning (12 days)
 
-## Week 12: Real life cases
+1.1. Machine Learning Basics
 
-1.   *Look for a statistics case that can be solved in paper (finish the solution) and scale it to coding big amounts of data
-        --->  can be the rats problem but reshaped.*
-2.   *Look for an image classification good case-----> can be a case applied to medicine (xrays, etc)*
-3.   *Look for an NLP, neural networks or recommender system(clustering) good case*-----> Look for the new Spotify case in Kaggle competitions.
+1.2. Model evaluation
+
+1.3. Model hyperparameters optimization
+
+1.4. Logistic Regression on Titanic notebook
+
+📝 Project: Bank Marketing Campaign (2 hours) 
+
+2.1. Linear Regression 
+
+2.2. Exploring Linear Regression notebook
+
+📝 Project: Predicting insurance cost (2 hours) 
+
+3.1. Regularized Linear Regression 
+
+📝 Project: Finding important sociodemographic features that impact in health resources (2 hours) 
+
+4.1. Decision Trees
+
+4.2. Exploring Decision Trees Notebook
+
+📝 Project: Classifying patients having diabetes or not (2 hours)
+
+5.1. Random Forest
+
+📝 Project: Improving Titanic survival results (2 hours)
+
+6.1. Boosting Algorithms
+
+📝 Project: Boosting your Titanic with XGBoost algorithm (2 hours)
+
+7.1. Naive Bayes
+
+7.2. Exploring Naive Bayes notebook
+
+📝 Project: Create a Google Play store reviews classifier (Sentiment Analysis) (2 hours)
+
+8.1. Support Vector Machine
+
+8.2. Intro to Natural Language Processing
+
+8.3. Exploring Natural Language Processing Notebook
+
+📝 Project: Building an email spam detector (2 hours)
+
+9.1. K-nearest neighbors (KNN)
+
+📝 Project: Building a simple movie recommender system (2 hours)
+
+10.1. Unsupervised Learning
+
+📝 Project: Segment houses based on their coordinates and median income. (2 hours)
+
+11.1. Time Series Forecasting 
+
+11.2. Exploring Time Series Notebook
+
+📝 Project: CPU usage anomaly detection (2 hours)
+
+12.1. Introduction to Deep Learning
+
+12.2. Exploring Neural Networks Notebook
+
+📝 Project: Building an image classifier (2 hours)
+
+## Data Science as Software (4 days)
+
+1. How to create a machine learning web app using Flask and Heroku.
+
+📝 Flask app project 
+
+2. How to create a machine learning web app using Streamlit and Heroku
+
+📝 Streamlit app project 
+
+## Data Warehouse tools: modeling on the cloud (3 days)
+
+1. Cloud Computing
+
+2. Intro to AWS SageMaker
+
+## Week 13-16: Final project
