@@ -1,6 +1,6 @@
 # Machine Learning Bootcamp
 
-1. Use the `export` folder for publishing pursposes, all lessons are compiled into that folder.
+1. Use the `export` folder for publishing pursposes, all lessons are compiled into that folder. y AÑADO UN TEXTO PARA HACER UN PULL REQUEST
 2. Compile original lessons by running `bash export.sh`
 
 > 🔥 Remember to run the `$ bash export` command.
